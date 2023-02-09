@@ -4,6 +4,19 @@
     margin: 0;
 
 }
+/* nav style */
+nav{
+    padding: 60px 130px;
+    text-align: end;
+}
+.navigation{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20px;
+    text-decoration: none;
+    
+}
 /* Header styles */
 header{
     margin: 0;
@@ -68,3 +81,124 @@ header{
     font-size: 16px;
     font-weight: 400;
 }
+/* My plan section style */
+.my-plan{
+    /* display: flex; */
+    margin: 0 230px;
+}
+.plan-info{
+    margin-bottom: 130px;
+}
+.plan-head-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-detail{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+.web{
+    text-align: center;
+}
+.java{
+    text-align: center;
+}
+.smoke{
+    text-align: center;
+}
+.ecomerce{
+    text-align: center;
+}
+/* positive section style */
+
+.primary-btn{
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.keep-positive{
+    margin: 130px 230px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0)                
+    100%),url(../images/watch.png);
+    border-radius: 8px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+.positive-info{
+    margin: 60px 617px 60px 64px;
+}
+.positive-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+/* Footer styles */
+.footer-info{
+    padding: 130px 230px;
+    display: flex;
+    background-color: #151414;
+}
+.future-info{
+    margin-right: 331px;
+}
+.future-title{
+    color: #f8f8f8;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.future-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.subcribe-info{
+
+}
+.subs-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.input-field{
+    background-color: #151414;
+    padding-left: 10px;
+    height: 50px;
+    width: 190px;
+    border: 1px solid;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+}
+.submit-btn{
+    color:#ffffff;
+    background-color: #2b179b;
+    margin: 20px 20px 20px 0;
+    border: #2b179b;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
