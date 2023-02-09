@@ -1,3 +1,70 @@
-h1{
-    color: brown;
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+
+}
+/* Header styles */
+header{
+    margin: 0;
+    background-image: url(../images/banner/banner3.png);
+}
+.banner-part{
+    width: 1600px;
+    height: 808px;
+}
+.banner-title{
+    color: #ffffff;
+    padding: 216px 230px 10px 845px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.banner-description{
+    color: #ffffff;
+    padding:20px 230px 20px 845px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}
+.contact-btn{
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 20px 230px 155px 1220px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* Previous year failure section styles */
+.failure{
+    margin: 130px 322px 130px 206px;
+    display: flex;
+}
+.depressed-img{
+
+}
+.failure-info{
+    margin: 235px 0px 112px 87px;
+
+}
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.failure-description{
+    color: #444343;
+    margin: 28px 0 16px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.failure-point{
+    max-resolution: 8px 0;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
 }
